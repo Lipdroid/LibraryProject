@@ -3,7 +3,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 ext {
-    bintrayRepo = 'maven'
+
+    bintrayRepo = 'sample_library_module'
     bintrayName = 'sample_library_module'
 
     publishedGroupId = 'com.example.lipuhossain.libraryproject'
@@ -12,8 +13,8 @@ ext {
 
     libraryDescription = 'This is a testing project for uploading module'
 
-    siteUrl = 'https://github.com/nuuneoi/FBLikeAndroid'
-    gitUrl = 'https://github.com/nuuneoi/FBLikeAndroid.git'
+    siteUrl = 'https://github.com/Lipdroid/LibraryProject'
+    gitUrl = 'https://github.com/Lipdroid/LibraryProject'
 
     libraryVersion = '1.0.0'
 
